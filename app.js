@@ -7,7 +7,7 @@ app.set('views', './views');
 app.set('view engine', 'jade');
 
 var stormpathMiddleware = stormpath.init(app, {
-  apiKeyFile: '/Users/Debol/Documents/testProjectToErase/apiKey.properties',
+  apiKeyFile: '/Users/Debol/Documents/LoginSiteWithNode/apiKey.properties',
   application: 'https://api.stormpath.com/v1/applications/2gPF3bYKY94tEoYMIpmMPL',
   secretKey: 'some_long_random_string',
   expandCustomData: true,
