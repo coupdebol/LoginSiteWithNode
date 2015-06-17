@@ -5,6 +5,11 @@ var app = express();
 
 app.set('views', './views');
 app.set('view engine', 'jade');
+asdfasdfasdfa
+asdfasdfasdfasd
+asdfasdfasdfasdasdf
+asdfasdfasdfasdasdfasdf
+asdfasdfasdfasdasdfasdf
 
 var stormpathMiddleware = stormpath.init(app, {
   apiKeyFile: '/Users/Debol/Documents/LoginSiteWithNode/apiKey.properties',
